@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shop_app/products_overview_screen.dart';
 
 void main() {
   runApp(
@@ -18,22 +19,6 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Lato',
       ),
       home: ProductsOverviewScreen(),
-    );
-  }
-}
-
-class ProductsOverviewScreen extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Shop app'),
-      ),
-      body: Container(
-        child: Center(
-          child: Text('Shopping Application'),
-        ),
-      ),
     );
   }
 }
