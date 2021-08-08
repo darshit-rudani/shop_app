@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:shop_app/product.dart';
-import 'package:shop_app/product_item.dart';
+import './product.dart';
+import './product_item.dart';
 
 class ProductsOverviewScreen extends StatelessWidget {
   final List<Product> loadedProducts = [

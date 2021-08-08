@@ -19,11 +19,25 @@ class ProductItem extends StatelessWidget {
         fit: BoxFit.fill,
       ),
       footer: GridTileBar(
-        backgroundColor: Colors.black45,
+        backgroundColor: Colors.black54,
         title: Center(
           child: Text(
             title,
           ),
+        ),
+        leading: IconButton(
+          icon: Icon(
+            Icons.favorite,
+            color: Theme.of(context).accentColor,
+          ),
+          onPressed: (){},
+        ),
+        trailing: IconButton(
+          icon: Icon(
+            Icons.shopping_cart,
+            color: Theme.of(context).accentColor,
+          ),
+          onPressed: (){},
         ),
       ),
     );
