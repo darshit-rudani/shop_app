@@ -35,7 +35,7 @@ class ProductItem extends StatelessWidget {
                   color: Theme.of(context).accentColor,
                 ),
                 onPressed: () {
-                  product.toggleFavoritStatus();
+                  product.toggleFavoriteStatus();
                 },
               ),
             ),
