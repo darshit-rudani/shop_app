@@ -36,6 +36,7 @@ class CartScreen extends StatelessWidget {
                       ),
                     ),
                   ),
+                  // ignore: deprecated_member_use
                   FlatButton(
                     textColor: Theme.of(context).primaryColor,
                     onPressed: () {},
@@ -53,6 +54,7 @@ class CartScreen extends StatelessWidget {
               itemCount: cart.items.length,
               itemBuilder: (ctx, i) => CartItem(
                 cart.items.values.toList()[i].id,
+                cart.items.keys.toList()[i],
                 cart.items.values.toList()[i].title,
                 cart.items.values.toList()[i].quantity,
                 cart.items.values.toList()[i].price,
